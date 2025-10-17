@@ -37,24 +37,25 @@ Containerized with Docker, CloudPulse offers consistent development and producti
 ### Installation & Setup
 
 1. Clone the repository:
+```
 git clone https://github.com/yourusername/cloudpulse.git
 cd cloudpulse
-
-text
-
+```
 2. Install dependencies:
+```
 npm install
-
-text
-
+```
 3. Configure environment variables based on `.env.example` (set AWS credentials, DB connection, SQS queue URLs).
 
 4. Run locally without Docker:
+```
 npm run start:dev
-
+```
 5. Or build and run with Docker:
+```
 docker build -t cloudpulse .
 docker run -p 3000:3000 cloudpulse
+```
 ---
 
 ## Architecture & Workflow
